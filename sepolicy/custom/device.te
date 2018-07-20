@@ -1,0 +1,6 @@
+# additional
+
+#
+# printer
+#
+type sunmifs, fs_type, sysfs_type, mlstrustedobject, dev_type;

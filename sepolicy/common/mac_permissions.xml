@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+    <!-- Platform dev key in SUNMI -->
+    <signer signature="@SUNMI" >
+      <seinfo value="sunmi" />
+    </signer>
+</policy>

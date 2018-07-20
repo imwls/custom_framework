@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+
+<!-- If you edit this version, also edit the version in the partner-supplied
+    apns-conf.xml configuration file -->
+<apns version="8">
+
+<!-- 2018-4-14 日本Netstars -->
+<apn carrier="biglobe"
+      mcc="440"
+      mnc="10"
+      apn="biglobe.jp"
+      user="user"
+      password="0000"
+      authenticationtype="CHAP,PAP"
+      type="default"
+  />
+
+<!-- 2017-11-21
+日本Intasect -->
+<apn carrier="n-aeonmobile"
+      mcc="440"
+      mnc="10"
+      apn="n-aeonmobile.com"
+      user="user@n-aeonmobile.com"
+      password="0000"
+      authenticationtype="CHAP,PAP"
+      type="default"
+  />
+
+<apn carrier="i-aeonmobile"
+      mcc="440"
+      mnc="10"
+      apn="i-aeonmobile.com"
+      user="user"
+      password="0000"
+      authenticationtype="CHAP"
+      type="default"
+  />
+
+<apn carrier="soracom"
+      mcc="440"
+      mnc="10"
+      apn="soracom.io"
+      user="sora"
+      password="sora"
+      type="default"
+  />
+<!--
+2017-6-30
+中国三大运营商物联网卡通用配置（移动5-17已加）
+-->
+    <apn carrier="联通公网GZ"
+      mcc="460"
+      mnc="06"
+      apn="unim2m.gzm2mapn"
+      type="default"
+    />
+
+    <apn carrier="联通公网NJ"
+      mcc="460"
+      mnc="06"
+      apn="unim2m.njm2mapn"
+      type="default"
+    />
+
+    <apn carrier="联通公网BJ"
+      mcc="460"
+      mnc="06"
+      apn="unim2m.bjm2mapn"
+      type="default"
+    />
+
+    <apn carrier="联通4G"
+      mcc="460"
+      mnc="06"
+      apn="wonet"
+      type="default"
+    />
+
+    <apn carrier="CMMTM"
+      mcc="460"
+      mnc="04"
+      apn="CMMTM"
+      type="default"
+    />
+
+<!--
+2017-5-17
+盛付通代理商/移动物联网卡公网通用配置
+-->
+    <apn carrier="CMIOT"
+      mcc="460"
+      mnc="04"
+      apn="CMIOT"
+      type="default"
+    />
+
+
+<!--
+2017-5-5
+乐富/联通物联网卡公网通用配置
+-->
+
+    <apn carrier="中国联通物联网3G"
+      mcc="460"
+      mnc="06"
+      apn="3gnet"
+      type="default"
+    />
+
+<!--
+2017-3-17
+日本客户
+-->
+
+    <apn carrier="ROKEMOBA"
+      mcc="440"
+      mnc="10"
+      apn="4gn.jp"
+      user="roke@moba"
+      password="rokemoba"
+      authenticationtype="CHAP,PAP"
+      type="default"
+    />
+
+    <apn carrier="FREETEL"
+      mcc="440"
+      mnc="10"
+      apn="freetel.link"
+      user="freetel@freetel.link"
+      password="freetel"
+      authenticationtype="PAP"
+      type="default"
+    />
+
+<!--
+2017-3-13
+新意畅想（弃用，启用新carrier名）
+-->
+    <apn carrier="xinyi"
+      mcc="460"
+      mnc="06"
+      apn="unim2m.njm2mapn"
+      type="default"
+    />
+
+<!--
+2017-2-13
+新加坡客户
+-->
+    <apn carrier="shm2m"
+      mcc="525"
+      mnc="01"
+      apn="m2minternet"
+      type="default"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+    />
+
+    <apn carrier="shm2m"
+      mcc="525"
+      mnc="02"
+      apn="m2minternet"
+      type="default"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+    />
+
+    <apn carrier="shm2m"
+      mcc="525"
+      mnc="08"
+      apn="shwap"
+      type="default"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+    />
+
+</apns>

@@ -1,0 +1,9 @@
+#
+# Sunmi media file
+#
+type sunmi_media_file, file_type, data_file_type, mlstrustedobject;
+
+#
+# Sunmi sysfs file
+#
+type sunmi_sysfs_file, fs_type, sysfs_type, mlstrustedobject;

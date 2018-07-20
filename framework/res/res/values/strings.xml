@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- label for item that turns off power in phone options dialog -->
+    <string name="global_action_power_off">Power off</string>
+    <!-- Sunmi-->
+    <string name="sunmi_label">Sunmi System</string>
+
+    <string name="sunmi_summary">Sunmi is the POS leader.</string>
+
+    <string name="sunmi_build_info">Sunmi Build Info</string>
+    <!-- [CHAR LIMIT=40] Title of dialog that is shown when system is starting. -->
+    <string name="android_start_title">Android is starting\u2026</string>
+    <!-- [CHAR LIMIT=NONE] Message to show in upgrading dialog when the bulk of the upgrade work is done. -->
+    <string name="android_upgrading_complete">Finishing boot</string>
+    <string name="global_action_reboot">Reboot</string>
+
+    <string name="android_upgrading_apk_title">Optimizing app</string>
+    <string name="android_upgrading_apk_summary">%1$d/%2$d</string>
+    <string name="changed_ime_success">Default inputmethod had been change</string>
+    <string name="key_num_0">0</string>
+    <string name="key_num_1">1</string>
+    <string name="key_num_2">2</string>
+    <string name="key_num_3">3</string>
+    <string name="key_num_4">4</string>
+    <string name="key_num_5">5</string>
+    <string name="key_num_6">6</string>
+    <string name="key_num_7">7</string>
+    <string name="key_num_8">8</string>
+    <string name="key_num_9">9</string>
+
+    <string name="quit_super"><u>Exit Kiosk</u></string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="master_clear_button_text" product="default" msgid="7550632653343157971">"重設設備"</string>
+
+	<string name="bluetooth_tethering_off_subtext" product="tablet" msgid="3737828501935728137">"未分享這個設備的互聯網連線"</string>
+    <string name="bluetooth_tethering_off_subtext" product="default" msgid="9099562374002272901">"未分享這部設備的互聯網連線"</string>
+	<string name="device_info_settings" product="tablet" msgid="1119755927536987178">"關於設備"</string>
+    <string name="device_info_settings" product="default" msgid="475872867864762157">"關於設備"</string>
+	<string name="about_settings" product="tablet" msgid="593457295516533765">"關於設備"</string>
+    <string name="about_settings" product="default" msgid="1743378368185371685">"關於設備"</string>
+	<string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"對設備進行加密"</string>
+    <string name="crypt_keeper_encrypt_title" product="default" msgid="1878996487755806122">"將設備加密"</string>
+    <string name="master_clear_button_text" product="tablet" msgid="3130786116528304116">"重設設備"</string>
+    <string name="master_clear_button_text" product="default" msgid="7550632653343157971">"重設設備"</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+  <public type="drawable" name="sunmi_mouse" id="0x02020000" />
+  <public type="string" name="sunmi_summary" id="0x02030000" />
+  <public type="string" name="sunmi_label" id="0x02030001" />
+
+</resources>
+

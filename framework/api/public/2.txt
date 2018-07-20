@@ -1,0 +1,509 @@
+package sunmi {
+
+  public final class Manifest {
+    ctor public Manifest();
+  }
+
+  public static final class Manifest.permission {
+    ctor public Manifest.permission();
+    field public static final java.lang.String SUNMI_SILENCE_INSTALL = "android.permission.SUNMI_SILENCE_INSTALL";
+    field public static final java.lang.String SUNMI_SILENCE_UNINSTALL = "android.permission.SUNMI_SILENCE_UNINSTALL";
+    field public static final java.lang.String SUNMI_WRITE_PEOPERTY = "android.permission.SUNMI_WRITE_PEOPERTY";
+  }
+
+  public final class R {
+    ctor public R();
+  }
+
+  public static final class R.anim {
+    ctor public R.anim();
+    field public static final int progress_indeterminate_material = 168099840; // 0xa050000
+    field public static final int progress_indeterminate_rotation_material = 168099841; // 0xa050001
+  }
+
+  public static final class R.attr {
+    ctor public R.attr();
+  }
+
+  public static final class R.dimen {
+    ctor public R.dimen();
+    field public static final int margintop = 168230913; // 0xa070001
+    field public static final int minwidth = 168230914; // 0xa070002
+    field public static final int textsize = 168230912; // 0xa070000
+  }
+
+  public static final class R.drawable {
+    ctor public R.drawable();
+    field public static final int num_bg_no_select = 167903233; // 0xa020001
+    field public static final int num_bg_press = 167903234; // 0xa020002
+    field public static final int num_bg_select = 167903235; // 0xa020003
+    field public static final int progress_sunmi = 167903236; // 0xa020004
+    field public static final int progress_sunmi_shutdown = 167903237; // 0xa020005
+    field public static final int pwd_back_arr = 167903238; // 0xa020006
+    field public static final int pwd_delete_tag = 167903239; // 0xa020007
+    field public static final int pwd_dot_add = 167903240; // 0xa020008
+    field public static final int pwd_dot_empty = 167903241; // 0xa020009
+    field public static final int pwd_dot_normal = 167903242; // 0xa02000a
+    field public static final int sunmi_launcher = 167903243; // 0xa02000b
+    field public static final int sunmi_middle = 167903244; // 0xa02000c
+    field public static final int sunmi_mouse = 167903232; // 0xa020000
+    field public static final int sunmi_restart = 167903245; // 0xa02000d
+    field public static final int sunmi_restart_normal = 167903246; // 0xa02000e
+    field public static final int sunmi_restart_pressed = 167903247; // 0xa02000f
+    field public static final int sunmi_shutdown = 167903248; // 0xa020010
+    field public static final int sunmi_shutdown_normal = 167903249; // 0xa020011
+    field public static final int sunmi_shutdown_pressed = 167903250; // 0xa020012
+    field public static final int sunmi_super_screen = 167903251; // 0xa020013
+    field public static final int vector_drawable_progress_bar_sunmi = 167903252; // 0xa020014
+    field public static final int vector_drawable_progress_bar_sunmi_shutdown = 167903253; // 0xa020015
+  }
+
+  public static final class R.id {
+    ctor public R.id();
+    field public static final int m_back_bt = 168296461; // 0xa08000d
+    field public static final int m_n0 = 168296477; // 0xa08001d
+    field public static final int m_n1 = 168296468; // 0xa080014
+    field public static final int m_n2 = 168296469; // 0xa080015
+    field public static final int m_n3 = 168296470; // 0xa080016
+    field public static final int m_n4 = 168296471; // 0xa080017
+    field public static final int m_n5 = 168296472; // 0xa080018
+    field public static final int m_n6 = 168296473; // 0xa080019
+    field public static final int m_n7 = 168296474; // 0xa08001a
+    field public static final int m_n8 = 168296475; // 0xa08001b
+    field public static final int m_n9 = 168296476; // 0xa08001c
+    field public static final int m_nd = 168296478; // 0xa08001e
+    field public static final int m_pwd_dot = 168296462; // 0xa08000e
+    field public static final int m_pwd_dot_a = 168296464; // 0xa080010
+    field public static final int m_pwd_dot_b = 168296465; // 0xa080011
+    field public static final int m_pwd_dot_c = 168296466; // 0xa080012
+    field public static final int m_pwd_dot_d = 168296467; // 0xa080013
+    field public static final int m_pwd_dot_line = 168296463; // 0xa08000f
+    field public static final int message = 168296455; // 0xa080007
+    field public static final int middle_icon = 168296459; // 0xa08000b
+    field public static final int prograssbar = 168296454; // 0xa080006
+    field public static final int progress_determinate = 168296448; // 0xa080000
+    field public static final int progress_indeterminate = 168296449; // 0xa080001
+    field public static final int quit_super = 168296457; // 0xa080009
+    field public static final int restart = 168296451; // 0xa080003
+    field public static final int restart_image = 168296458; // 0xa08000a
+    field public static final int restart_layout = 168296452; // 0xa080004
+    field public static final int shutdown = 168296450; // 0xa080002
+    field public static final int shutdown_image = 168296460; // 0xa08000c
+    field public static final int shutdown_layout = 168296453; // 0xa080005
+    field public static final int super_screen = 168296456; // 0xa080008
+  }
+
+  public static final class R.interpolator {
+    ctor public R.interpolator();
+    field public static final int trim_end_interpolator = 168165376; // 0xa060000
+    field public static final int trim_start_interpolator = 168165377; // 0xa060001
+  }
+
+  public static final class R.layout {
+    ctor public R.layout();
+    field public static final int dialog_sunmi = 168034304; // 0xa040000
+    field public static final int dialog_sunmi_shutdown_confirm = 168034305; // 0xa040001
+    field public static final int exclusive_dialog = 168034306; // 0xa040002
+  }
+
+  public static final class R.string {
+    ctor public R.string();
+    field public static final int android_start_title = 167968772; // 0xa030004
+    field public static final int android_upgrading_apk_summary = 167968776; // 0xa030008
+    field public static final int android_upgrading_apk_title = 167968775; // 0xa030007
+    field public static final int android_upgrading_complete = 167968773; // 0xa030005
+    field public static final int changed_ime_success = 167968777; // 0xa030009
+    field public static final int global_action_power_off = 167968770; // 0xa030002
+    field public static final int global_action_reboot = 167968774; // 0xa030006
+    field public static final int key_num_0 = 167968778; // 0xa03000a
+    field public static final int key_num_1 = 167968779; // 0xa03000b
+    field public static final int key_num_2 = 167968780; // 0xa03000c
+    field public static final int key_num_3 = 167968781; // 0xa03000d
+    field public static final int key_num_4 = 167968782; // 0xa03000e
+    field public static final int key_num_5 = 167968783; // 0xa03000f
+    field public static final int key_num_6 = 167968784; // 0xa030010
+    field public static final int key_num_7 = 167968785; // 0xa030011
+    field public static final int key_num_8 = 167968786; // 0xa030012
+    field public static final int key_num_9 = 167968787; // 0xa030013
+    field public static final int quit_super = 167968788; // 0xa030014
+    field public static final int sunmi_build_info = 167968771; // 0xa030003
+    field public static final int sunmi_label = 167968769; // 0xa030001
+    field public static final int sunmi_summary = 167968768; // 0xa030000
+  }
+
+  public static final class R.style {
+    ctor public R.style();
+    field public static final int SunmiDialogTheme = 168361984; // 0xa090000
+    field public static final int SunmiExclusiveDialogStyle = 168361985; // 0xa090001
+  }
+
+}
+
+package sunmi.dataservice.appusage {
+
+  public class AppInformation {
+    ctor public AppInformation(android.app.usage.UsageStats, android.content.Context);
+    method public java.lang.String getLabel();
+    method public java.lang.String getPackageName();
+    method public int getTimes();
+    method public android.app.usage.UsageStats getUsageStats();
+    method public long getUsedTimebyDay();
+    method public void setTimes(int);
+    method public void setUsedTimebyDay(long);
+  }
+
+  public class AppUsageInfo implements sunmi.dataservice.appusage.ApplicationsState.Callbacks {
+    ctor public AppUsageInfo(android.app.Application, boolean, sunmi.dataservice.appusage.AppUsageInfo.Callbacks);
+    method public void onAllSizesComputed();
+    method public void onLauncherInfoChanged();
+    method public void onLoadEntriesCompleted();
+    method public void onPackageIconChanged();
+    method public void onPackageListChanged();
+    method public void onPackageSizeChanged(java.lang.String);
+    method public void onRebuildComplete(java.util.ArrayList<sunmi.dataservice.appusage.ApplicationsState.AppEntry>);
+    method public void onRunningStateChanged(boolean);
+    method public void rebuild(boolean);
+    method public void resume(int);
+    method public void startAppUsageSizeInfo();
+    field public static final int SIZE_EXTERNAL = 2; // 0x2
+    field public static final int SIZE_INTERNAL = 1; // 0x1
+    field public static final int SIZE_TOTAL = 0; // 0x0
+    field public static final int sort_order_size = 1; // 0x1
+  }
+
+  public static abstract interface AppUsageInfo.Callbacks {
+    method public abstract void onGetAppInfoComplete(java.util.ArrayList<sunmi.dataservice.appusage.ApplicationsState.AppEntry>);
+  }
+
+  public class AppUsageTime {
+    ctor public AppUsageTime(android.content.Context);
+    ctor public AppUsageTime(android.content.Context, int);
+    method public int foundUsageStats(java.util.List<android.app.usage.UsageStats>, android.app.usage.UsageStats);
+    method public long getBeginTime();
+    method public java.util.ArrayList<sunmi.dataservice.appusage.AppInformation> getShowList();
+    method public long getTotalTime();
+    method public int getTotalTimes();
+    method public java.util.List<android.app.usage.UsageStats> mergeList(java.util.List<android.app.usage.UsageStats>, long);
+    method public void setResultList(android.content.Context, int);
+    method public void setUsageStatsList() throws java.lang.NoSuchFieldException;
+    field public static final int DAY = 0; // 0x0
+    field public static final int TODAY = 0; // 0x0
+    field public static final int YESTODAY = 1; // 0x1
+  }
+
+  public class ApplicationsState {
+    method public void ensureIcon(sunmi.dataservice.appusage.ApplicationsState.AppEntry);
+    method public android.os.Looper getBackgroundLooper();
+    method public sunmi.dataservice.appusage.ApplicationsState.AppEntry getEntry(java.lang.String, int);
+    method public static sunmi.dataservice.appusage.ApplicationsState getInstance(android.app.Application);
+    method public boolean haveDisabledApps();
+    method public void invalidatePackage(java.lang.String, int);
+    method public sunmi.dataservice.appusage.ApplicationsState.Session newSession(sunmi.dataservice.appusage.ApplicationsState.Callbacks);
+    method public static java.lang.String normalize(java.lang.String);
+    method public void removePackage(java.lang.String, int);
+    method public void requestSize(java.lang.String, int);
+    field public static final java.util.Comparator<sunmi.dataservice.appusage.ApplicationsState.AppEntry> ALPHA_COMPARATOR;
+    field public static final java.util.Comparator<sunmi.dataservice.appusage.ApplicationsState.AppEntry> EXTERNAL_SIZE_COMPARATOR;
+    field public static final sunmi.dataservice.appusage.ApplicationsState.AppFilter FILTER_ALL_ENABLED;
+    field public static final sunmi.dataservice.appusage.ApplicationsState.AppFilter FILTER_DISABLED;
+    field public static final sunmi.dataservice.appusage.ApplicationsState.AppFilter FILTER_DOWNLOADED_AND_LAUNCHER;
+    field public static final sunmi.dataservice.appusage.ApplicationsState.AppFilter FILTER_EVERYTHING;
+    field public static final sunmi.dataservice.appusage.ApplicationsState.AppFilter FILTER_PERSONAL;
+    field public static final sunmi.dataservice.appusage.ApplicationsState.AppFilter FILTER_PERSONAL_WITHOUT_DISABLED_UNTIL_USED;
+    field public static final sunmi.dataservice.appusage.ApplicationsState.AppFilter FILTER_THIRD_PARTY;
+    field public static final sunmi.dataservice.appusage.ApplicationsState.AppFilter FILTER_WORK;
+    field public static final java.util.Comparator<sunmi.dataservice.appusage.ApplicationsState.AppEntry> INTERNAL_SIZE_COMPARATOR;
+    field public static final java.util.Comparator<sunmi.dataservice.appusage.ApplicationsState.AppEntry> SIZE_COMPARATOR;
+    field public static final int SIZE_INVALID = -2; // 0xfffffffe
+    field public static final int SIZE_UNKNOWN = -1; // 0xffffffff
+  }
+
+  public static class ApplicationsState.AppEntry extends sunmi.dataservice.appusage.ApplicationsState.SizeInfo {
+    method public void ensureLabel(android.content.Context);
+    method public java.lang.String getNormalizedLabel();
+    method public java.lang.String getVersion(android.content.Context);
+    field public final java.io.File apkFile;
+    field public long externalSize;
+    field public java.lang.String externalSizeStr;
+    field public java.lang.Object extraInfo;
+    field public boolean hasLauncherEntry;
+    field public android.graphics.drawable.Drawable icon;
+    field public final long id;
+    field public android.content.pm.ApplicationInfo info;
+    field public long internalSize;
+    field public java.lang.String internalSizeStr;
+    field public java.lang.String label;
+    field public boolean mounted;
+    field public java.lang.String normalizedLabel;
+    field public long size;
+    field public long sizeLoadStart;
+    field public boolean sizeStale;
+    field public java.lang.String sizeStr;
+  }
+
+  public static abstract interface ApplicationsState.AppFilter {
+    method public abstract boolean filterApp(sunmi.dataservice.appusage.ApplicationsState.AppEntry);
+    method public abstract void init();
+  }
+
+  public static abstract interface ApplicationsState.Callbacks {
+    method public abstract void onAllSizesComputed();
+    method public abstract void onLauncherInfoChanged();
+    method public abstract void onLoadEntriesCompleted();
+    method public abstract void onPackageIconChanged();
+    method public abstract void onPackageListChanged();
+    method public abstract void onPackageSizeChanged(java.lang.String);
+    method public abstract void onRebuildComplete(java.util.ArrayList<sunmi.dataservice.appusage.ApplicationsState.AppEntry>);
+    method public abstract void onRunningStateChanged(boolean);
+  }
+
+  public static class ApplicationsState.CompoundFilter implements sunmi.dataservice.appusage.ApplicationsState.AppFilter {
+    ctor public ApplicationsState.CompoundFilter(sunmi.dataservice.appusage.ApplicationsState.AppFilter, sunmi.dataservice.appusage.ApplicationsState.AppFilter);
+    method public boolean filterApp(sunmi.dataservice.appusage.ApplicationsState.AppEntry);
+    method public void init();
+  }
+
+  public class ApplicationsState.Session {
+    method public java.util.ArrayList<sunmi.dataservice.appusage.ApplicationsState.AppEntry> getAllApps();
+    method public void pause();
+    method public java.util.ArrayList<sunmi.dataservice.appusage.ApplicationsState.AppEntry> rebuild(sunmi.dataservice.appusage.ApplicationsState.AppFilter, java.util.Comparator<sunmi.dataservice.appusage.ApplicationsState.AppEntry>);
+    method public void release();
+    method public void resume();
+  }
+
+  public static class ApplicationsState.SizeInfo {
+    ctor public ApplicationsState.SizeInfo();
+    field public long cacheSize;
+    field public long codeSize;
+    field public long dataSize;
+    field public long externalCacheSize;
+    field public long externalCodeSize;
+    field public long externalDataSize;
+  }
+
+  public class InterestingConfigChanges {
+    ctor public InterestingConfigChanges();
+    method public boolean applyNewConfig(android.content.res.Resources);
+  }
+
+}
+
+package sunmi.dataservice.battery {
+
+  public class BatteryEntry {
+    ctor public BatteryEntry(int, double);
+    method public double getTotalPowerMah();
+    method public int getUid();
+    field public double totalPowerMah;
+    field public android.os.BatteryStats.Uid uidObj;
+    field public int userId;
+  }
+
+  public class BatteryInfo {
+    ctor public BatteryInfo(android.content.Context);
+    method public int getBatteryLevel();
+    method public int getBatteryScal();
+    method public int getBatteryTemperature();
+    method public java.util.ArrayList<sunmi.dataservice.battery.BatteryEntry> getBatteryUsage();
+    method public void init();
+    field protected com.android.internal.os.BatteryStatsHelper mStatsHelper;
+    field protected android.os.UserManager mUm;
+  }
+
+}
+
+package sunmi.dataservice.cpu {
+
+  public class SunmiCpuTraker {
+    ctor public SunmiCpuTraker();
+    method public float updateCpuStatsNow();
+  }
+
+}
+
+package sunmi.hardware.input {
+
+  public deprecated class InputManagerUtils {
+    ctor public InputManagerUtils();
+    method public static boolean injectInputEvent(android.hardware.input.InputManager, android.view.InputEvent, int);
+  }
+
+}
+
+package sunmi.os {
+
+  public class Build {
+    ctor public Build();
+    field public static final java.lang.String SUNMI_DEVICE_CODE;
+    field public static final java.lang.String SUNMI_HARDWARE;
+    field public static final java.lang.String SUNMI_PRODUCT_NAME;
+    field public static final java.lang.String SUNMI_SECOND_SERIAL_NO;
+    field public static final java.lang.String SUNMI_SERIAL_NO;
+    field public static final java.lang.String SUNMI_THIRD_SERIAL_NO;
+    field public static final java.lang.String SUNMI_VERSION_CODE;
+    field public static final java.lang.String SUNMI_VERSION_NAME;
+    field public static final java.lang.String UNKNOWN = "unknown";
+    field public static final java.lang.String UNKNOWN1 = "unknown";
+    field public static final java.lang.String UNKNOWN2 = "unknown";
+  }
+
+  public class EthernetManagerUtils {
+    ctor public EthernetManagerUtils();
+    method public static java.net.InetAddress getInetAddress(java.lang.String);
+    method public static int getPrefixLenByMask(java.lang.String);
+    method public static boolean isValidMask(java.lang.String);
+    method public static void setConfiguration(android.content.Context, int, int, java.lang.String, int, java.lang.String, java.lang.String, android.net.ProxyInfo);
+    field public static final int IP_ASSIGNMENT_DHCP = 1; // 0x1
+    field public static final int IP_ASSIGNMENT_STATIC = 0; // 0x0
+    field public static final int PROXY_SETTINGS_TYPE_NONE = 0; // 0x0
+    field public static final int PROXY_SETTINGS_TYPE_PAC = 3; // 0x3
+    field public static final int PROXY_SETTINGS_TYPE_STATIC = 1; // 0x1
+    field public static final int PROXY_SETTINGS_TYPE_UNASSIGNED = 2; // 0x2
+    field public static final java.lang.String TAG = "EthernetManagerUtils";
+  }
+
+  public class InputMethodManagerUtils {
+    ctor public InputMethodManagerUtils();
+    method public static java.lang.String getCurrentIME(android.content.Context);
+    method public static java.lang.String getDefaultIME(android.content.Context);
+    method public static boolean setCurrentIME(android.content.Context, java.lang.String);
+    field public static final java.lang.String TAG = "InputMethodManagerUtils";
+  }
+
+  public class KeyguardManagerUtils {
+    ctor public KeyguardManagerUtils();
+    method public static boolean clearKeyguardPwd(android.content.Context);
+    method public static void disMissKeyguard(android.content.Context, java.lang.String);
+  }
+
+  public class LocaleUtils {
+    ctor public LocaleUtils();
+    method public static deprecated boolean blockChangeLocale();
+    method public static java.lang.String getDefaultLocale();
+    method public static java.lang.String getDefaultTimezone();
+    method public static void updateLocale(java.util.Locale) throws android.os.RemoteException;
+    field public static final java.lang.String DEFAULE_LOCALE = "zh-CN";
+    field public static final java.lang.String DEFAULE_TIMEZONE = "Asia/Shanghai";
+  }
+
+  public deprecated class PowerManagerUtils {
+    ctor public PowerManagerUtils();
+    method public void shutdown(android.os.PowerManager, boolean, boolean);
+  }
+
+  public deprecated class RecoverySystemUtils {
+    ctor public RecoverySystemUtils();
+    method public static void rebootWipeUserData(android.content.Context, boolean) throws java.io.IOException;
+  }
+
+  public class StorageManagerUtils {
+    ctor public StorageManagerUtils();
+    method public static long getFreeSize(android.content.Context);
+    method public static long getROMSize();
+    method public static java.lang.String getROMSizeIntege(android.content.Context);
+    method public static long getSystemSize(android.content.Context);
+  }
+
+  public class SuperApp {
+    ctor public SuperApp();
+    method public static final void setApp(android.content.Context, java.lang.String, java.lang.String);
+    field public static final java.lang.String SUNMI_SUPER_APP_LIST = "sunmi_super_app_list";
+    field public static final java.lang.String SUNMI_SUPER_APP_PASSWORD = "sunmi_super_app_password";
+  }
+
+  public deprecated class SystemPropertiesUtils {
+    ctor public SystemPropertiesUtils();
+    method public static java.lang.String get(java.lang.String);
+    method public static java.lang.String get(java.lang.String, java.lang.String);
+    method public static boolean getBoolean(java.lang.String, boolean);
+    method public static int getInt(java.lang.String, int);
+    method public static long getLong(java.lang.String, long);
+    method public static void set(java.lang.String, java.lang.String);
+  }
+
+}
+
+package sunmi.pm {
+
+  public abstract class DeleteObserver {
+    ctor public DeleteObserver();
+    method public abstract void packageDeleted(java.lang.String, int);
+  }
+
+  public abstract class InstallObserver {
+    ctor public InstallObserver();
+    method public abstract void onPackageInstalled(java.lang.String, int, java.lang.String, android.os.Bundle);
+    method public void onUserActionRequired(android.content.Intent);
+  }
+
+  public class PMUtils {
+    ctor public PMUtils();
+    method public static void deletePackage(android.content.Context, java.lang.String, sunmi.pm.DeleteObserver);
+    method public static deprecated void deletePackage(android.content.pm.PackageManager, java.lang.String, sunmi.pm.DeleteObserver);
+    method public static java.lang.String getInstallFailedMsg(int);
+    method public static java.lang.String getTopApp(android.app.ActivityManager);
+    method public static void installPackage(android.content.Context, android.net.Uri, sunmi.pm.InstallObserver);
+    method public static deprecated void installPackage(android.content.pm.PackageManager, android.net.Uri, sunmi.pm.InstallObserver);
+    field public static final int INSTALL_FAILED_FORBID_AOSP_APP = -201; // 0xffffff37
+    field public static final int INSTALL_FAILED_FORBID_BY_PLATFORM = -204; // 0xffffff34
+    field public static final int INSTALL_FAILED_FORBID_BY_SERVER = -202; // 0xffffff36
+    field public static final int INSTALL_FAILED_FORBID_BY_SUNMI_SIGN = -203; // 0xffffff35
+  }
+
+}
+
+package sunmi.reflex {
+
+  public class InputManagerUtils {
+    ctor public InputManagerUtils();
+    method public static boolean injectInputEvent(android.hardware.input.InputManager, android.view.InputEvent, int);
+  }
+
+  public class PowerManagerUtils {
+    ctor public PowerManagerUtils();
+    method public void shutdown(android.os.PowerManager, boolean, boolean);
+  }
+
+  public class RecoverySystemUtils {
+    ctor public RecoverySystemUtils();
+    method public static void rebootWipeUserData(android.content.Context, boolean) throws java.io.IOException;
+  }
+
+  public class SignalStrengthUtils {
+    ctor public SignalStrengthUtils();
+    method public static int getDbm(android.telephony.SignalStrength);
+  }
+
+  public class SystemPropertiesUtils {
+    ctor public SystemPropertiesUtils();
+    method public static java.lang.String get(java.lang.String);
+    method public static java.lang.String get(java.lang.String, java.lang.String);
+    method public static boolean getBoolean(java.lang.String, boolean);
+    method public static int getInt(java.lang.String, int);
+    method public static long getLong(java.lang.String, long);
+    method public static void set(java.lang.String, java.lang.String);
+  }
+
+  public class TelephonyManagerUtils {
+    ctor public TelephonyManagerUtils();
+    method public boolean getDataEnabled(android.telephony.TelephonyManager);
+    method public static void setDataEnabled(android.telephony.TelephonyManager, boolean);
+  }
+
+}
+
+package sunmi.telephony {
+
+  public deprecated class SignalStrengthUtils {
+    ctor public SignalStrengthUtils();
+    method public static int getDbm(android.telephony.SignalStrength);
+  }
+
+  public deprecated class TelephonyManagerUtils {
+    ctor public TelephonyManagerUtils();
+    method public boolean getDataEnabled(android.telephony.TelephonyManager);
+    method public static void setDataEnabled(android.telephony.TelephonyManager, boolean);
+  }
+
+}
+

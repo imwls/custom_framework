@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="master_clear_button_text" product="default" msgid="7550632653343157971">"恢复出厂设置"</string>
+    <!--zhangjie add begin-->
+    <string name="turn_on_wifi_dialog_title">"关闭 WLAN"</string>
+    <string name="turn_on_wifi_dialog_text">"激活移动热点时会关闭 Wi-Fi。要打开 Wi-Fi，请关闭移动热点。"</string>
+    <string name="dialog_not_show_again">"不再显示"</string>
+    <string name="turn_off_wifi_dialog_title">"关闭 WLAN"</string>
+    <string name="turn_off_wifi_dialog_text">"激活移动热点时会关闭 Wi-Fi。要打开 Wi-Fi，请关闭移动热点。"</string>
+    <!--zhangjie add end-->
+
+    <string name="bluetooth_tethering_off_subtext" product="tablet" msgid="3737828501935728137">"不共享该设备的互联网连接"</string>
+    <string name="bluetooth_tethering_off_subtext" product="default" msgid="9099562374002272901">"不共享该设备的互联网连接"</string>
+    <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"关于设备"</string>
+    <string name="device_info_settings" product="default" msgid="475872867864762157">"关于设备"</string>
+    <string name="about_settings" product="tablet" msgid="593457295516533765">"关于设备"</string>
+    <string name="about_settings" product="default" msgid="1743378368185371685">"关于设备"</string>
+	<string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"加密设备"</string>
+    <string name="crypt_keeper_encrypt_title" product="default" msgid="1878996487755806122">"加密设备"</string>
+    <string name="master_clear_button_text" product="tablet" msgid="3130786116528304116">"恢复设备出厂设置"</string>
+    <string name="master_clear_button_text" product="default" msgid="7550632653343157971">"恢复设备出厂设置"</string>
+</resources>

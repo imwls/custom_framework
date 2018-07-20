@@ -1,0 +1,3 @@
+# Ignore Sunmi SDK access to private resources
+-dontwarn sunmi.**
+-dontnote sunmi.**

@@ -1,0 +1,14 @@
+#
+# Sunmi add
+#
+allow untrusted_app console_device:chr_file { getattr write read open ioctl };
+
+#
+# Allow Simulate Imaging
+#
+allow untrusted_app bluetooth:unix_stream_socket connectto;
+
+#
+# Sunmi sysfs
+#
+allow untrusted_app sunmi_sysfs_file:file { write read };

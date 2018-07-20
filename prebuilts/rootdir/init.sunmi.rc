@@ -1,0 +1,20 @@
+# Copyright (C) 2012 The Android Open Source Project
+#
+# IMPORTANT: Do not create world writable files or directories.
+# This is a common source of Android security bugs.
+#
+
+on boot
+    #
+    # Custom USB Info
+    #
+    #write /sys/class/android_usb/android0/iSerial ${ro.serialno}
+    write /sys/class/android_usb/android0/iManufacturer ${ro.product.manufacturer}
+    write /sys/class/android_usb/android0/iProduct ${ro.product.model}
+
+on post-fs-data
+    #
+    # For Sunmi Custom Dir [Custom Bootanimation]
+    #
+    mkdir /data/sunmi 0777 system system
+    mkdir /data/sunmi/media 0777 system system

@@ -1,0 +1,48 @@
+package sunmi {
+
+  public final class Manifest {
+    ctor public Manifest();
+  }
+
+  public static final class Manifest.permission {
+    ctor public Manifest.permission();
+  }
+
+  public final class R {
+    ctor public R();
+  }
+
+  public static final class R.attr {
+    ctor public R.attr();
+  }
+
+  public static final class R.drawable {
+    ctor public R.drawable();
+    field public static final int sunmi_mouse = 33685504; // 0x2020000
+  }
+
+  public static final class R.string {
+    ctor public R.string();
+    field public static final int sunmi_label = 33751041; // 0x2030001
+    field public static final int sunmi_summary = 33751040; // 0x2030000
+  }
+
+}
+
+package sunmi.os {
+
+  public class Build {
+    ctor public Build();
+    field public static final java.lang.String SUNMI_DEVICE_CODE;
+    field public static final java.lang.String SUNMI_HARDWARE;
+    field public static final java.lang.String SUNMI_PRODUCT_NAME;
+    field public static final java.lang.String SUNMI_SECOND_SERIAL_NO;
+    field public static final java.lang.String SUNMI_SERIAL_NO;
+    field public static final java.lang.String SUNMI_THIRD_SERIAL_NO;
+    field public static final java.lang.String SUNMI_VERSION_CODE;
+    field public static final java.lang.String SUNMI_VERSION_NAME;
+    field public static final java.lang.String UNKNOWN = "unknown";
+  }
+
+}
+

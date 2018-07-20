@@ -1,0 +1,5 @@
+#
+# device.prop for SUNMI
+#
+ro.sunmi.locale=zh-CN
+ro.sunmi.timezone=Asia/Shanghai

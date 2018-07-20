@@ -1,0 +1,90 @@
+###
+### Apps signed with the sunmi key.
+###
+
+type sunmi_app, domain, domain_deprecated;
+app_domain(sunmi_app)
+# Access the network.
+net_domain(sunmi_app)
+# Access bluetooth.
+bluetooth_domain(sunmi_app)
+
+################################### Sunmi #########################################
+#
+# Printer
+#
+allow sunmi_app sunmifs:chr_file { read write open ioctl getattr};
+allow sunmi_app sysfs:file { read write open ioctl getattr};
+
+allow sunmi_app sysfs:chr_file { read write open ioctl getattr};
+
+#cash_drawer
+allow sunmi_app sunmifs:file { read write open ioctl getattr};
+
+#
+# Anr
+#
+allow sunmi_app anr_data_file:dir read;
+allow sunmi_app sysfs:file write;
+#
+# System Propertie
+#
+allow sunmi_app system_prop:property_service set;
+#
+# Sunmi media file
+#
+allow sunmi_app sunmi_media_file:dir { search write create remove_name add_name getattr setattr };
+allow sunmi_app sunmi_media_file:file { rename open unlink create write getattr setattr read };
+#
+# OTA
+#
+allow sunmi_app recovery_service:service_manager find;
+###################################################################################
+
+# Read from /data/local/tmp or /data/data/com.android.shell.
+allow sunmi_app shell_data_file:dir search;
+allow sunmi_app shell_data_file:file { open getattr read };
+allow sunmi_app icon_file:file { open getattr read };
+# Populate /data/app/vmdl*.tmp, /data/app-private/vmdl*.tmp files
+# created by system server.
+allow sunmi_app apk_private_data_file:dir search;
+# ASEC
+allow sunmi_app asec_apk_file:dir create_dir_perms;
+allow sunmi_app asec_apk_file:file create_file_perms;
+
+
+# Access to /data/media.
+allow sunmi_app media_rw_data_file:dir create_dir_perms;
+allow sunmi_app media_rw_data_file:file create_file_perms;
+
+# Write to /cache.
+allow sunmi_app { cache_file cache_recovery_file }:dir create_dir_perms;
+allow sunmi_app { cache_file cache_recovery_file }:file create_file_perms;
+
+# Direct access to vold-mounted storage under /mnt/media_rw
+# This is a performance optimization that allows platform apps to bypass the FUSE layer
+allow sunmi_app mnt_media_rw_file:dir r_dir_perms;
+allow sunmi_app vfat:dir create_dir_perms;
+allow sunmi_app vfat:file create_file_perms;
+
+allow sunmi_app audioserver_service:service_manager find;
+allow sunmi_app cameraserver_service:service_manager find;
+allow sunmi_app drmserver_service:service_manager find;
+allow sunmi_app mediaserver_service:service_manager find;
+allow sunmi_app mediaextractor_service:service_manager find;
+allow sunmi_app mediacodec_service:service_manager find;
+allow sunmi_app mediadrmserver_service:service_manager find;
+allow sunmi_app persistent_data_block_service:service_manager find;
+allow sunmi_app radio_service:service_manager find;
+allow sunmi_app surfaceflinger_service:service_manager find;
+allow sunmi_app app_api_service:service_manager find;
+allow sunmi_app system_api_service:service_manager find;
+allow sunmi_app vr_manager_service:service_manager find;
+
+# Access to /data/preloads
+allow sunmi_app preloads_data_file:file r_file_perms;
+allow sunmi_app preloads_data_file:dir r_dir_perms;
+
+# Allow set persist.sys.xxxx property
+allow sunmi_app property_socket:sock_file { write };
+allow sunmi_app init:unix_stream_socket { connectto };

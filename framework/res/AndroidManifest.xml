@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright 2015, CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sunmi"
+    coreApp="true"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="19"
+    android:versionName="1.0.19">
+
+    <!-- ================================================ -->
+    <!-- Special broadcasts that only the system can send -->
+    <!-- ================================================ -->
+    <eat-comment />
+
+    <!-- Write System Property
+	 Need Sunmi Sign-->
+    <permission android:name="android.permission.SUNMI_WRITE_PEOPERTY"
+        android:permissionGroup="android.permission-group.SUNMI"
+        android:protectionLevel="signature" />
+
+    <!-- Silence Install APP
+         Need Sunmi Sign-->
+    <permission android:name="android.permission.SUNMI_SILENCE_INSTALL"
+         android:permissionGroup="android.permission-group.SUNMI"
+         android:protectionLevel="signature" />
+
+    <!-- Silence Uninstall APP
+         Need Sunmi Sign-->
+    <permission android:name="android.permission.SUNMI_SILENCE_UNINSTALL"
+         android:permissionGroup="android.permission-group.SUNMI"
+         android:protectionLevel="signature" />
+
+    <application android:process="system"
+                 android:persistent="true"
+                 android:hasCode="false"
+                 android:icon="@drawable/sunmi_launcher"
+                 android:label="@string/sunmi_label"
+                 android:allowClearUserData="false"
+                 android:killAfterRestore="false"
+                 android:supportsRtl="true"/>
+
+</manifest>

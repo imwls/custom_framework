@@ -1,0 +1,9 @@
+#
+# Sunmi media file
+#
+/data/sunmi/media(/*)? 	u:object_r:sunmi_media_file:s0
+
+#
+# Sysfs for 
+#
+/sys/class/neostra_gpioctl/dev/gpioctl  --  u:object_r:sunmi_sysfs_file:s0

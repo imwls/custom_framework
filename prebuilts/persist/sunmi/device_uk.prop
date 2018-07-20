@@ -1,0 +1,6 @@
+#
+# device.prop for SUNMI
+#
+
+ro.sunmi.locale=en-US
+ro.sunmi.timezone=persist.sys.timezone=Europe/London

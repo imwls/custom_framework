@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">28px</dimen>
+    <dimen name="margintop">34px</dimen>
+    <dimen name="minwidth">108px</dimen>
+</resources>
